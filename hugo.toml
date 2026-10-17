@@ -24,8 +24,23 @@ enableRobotsTXT = true
     weight = 20
 
   [[menus.main]]
+    name = "Terms of Service"
+    pageRef = "/terms-of-service"
+    weight = 20
+
+  [[menus.main]]
+    name = "Terms of Use"
+    pageRef = "/terms-of-use"
+    weight = 20
+
+  [[menus.main]]
     name = "Documentation"
     pageRef = "/documentation"
+    weight = 20
+
+  [[menus.main]]
+    name = "Features"
+    pageRef = "/features"
     weight = 20
 
 [markup]
