@@ -1,5 +1,5 @@
 baseURL = "https://e2s.app/"
-title = "Free. Open-source. Forever."
+title = "E2S Assistant"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -8,7 +8,7 @@ theme = "liftoff"
 enableRobotsTXT = true
 
 [params]
-  description = "E2S Assistant - Privacy Policy and Documentation."
+  description = "E2S Assistant - Documentation."
   tagline = "Personal Assistant For The Blind, Low Vision, and Disabled."
   accent = "cyan"
 
