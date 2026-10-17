@@ -1,9 +1,11 @@
 ---
 title: "Privacy Policy"
-description: "Privacy policy for E2S Assistant."
+description: "IOS Privacy Policy"
 draft: false
 ---
 
-**Effective date:** INSERT YOUR POLICY'S EFFECTIVE DATE
+**Effective date:** OCTOBER 16TH 2026
 
-INSERT YOUR ACTUAL PRIVACY POLICY HERE.
+MY COMMITMENT TO YOUR DATA PRIVACY AND SAFETY:
+
+Testing updates

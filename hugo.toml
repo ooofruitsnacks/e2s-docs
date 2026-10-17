@@ -1,5 +1,5 @@
 baseURL = "https://e2s.app/"
-title = "E2S Assistant"
+title = "Free. Open-source. Forever."
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -8,8 +8,8 @@ theme = "liftoff"
 enableRobotsTXT = true
 
 [params]
-  description = "Privacy policy and documentation for E2S Assistant."
-  tagline = "Assistant for the blind, low vision, and disabled."
+  description = "E2S Assistant - Privacy Policy and Documentation."
+  tagline = "Personal Assistant For The Blind, Low Vision, and Disabled."
   accent = "cyan"
 
 [menus]
@@ -21,6 +21,11 @@ enableRobotsTXT = true
   [[menus.main]]
     name = "Privacy Policy"
     pageRef = "/privacy-policy"
+    weight = 20
+
+  [[menus.main]]
+    name = "Documentation"
+    pageRef = "/documentation"
     weight = 20
 
 [markup]
