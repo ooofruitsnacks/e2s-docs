@@ -34,4 +34,4 @@ enableRobotsTXT = true
     noClasses = false
     lineNos = false
     codeFences = true
-    tabWidth = 2
+    tabWidth = 3
