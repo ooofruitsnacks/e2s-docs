@@ -2,7 +2,8 @@ name: Build and deploy Hugo site
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -17,35 +18,74 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     env:
       HUGO_VERSION: "0.166.0"
       HUGO_ENVIRONMENT: production
 
     steps:
-      - name: Check out source and theme
+      - name: Check out source
         uses: actions/checkout@v7
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Configure Pages
-        id: pages
         uses: actions/configure-pages@v6
 
-      - name: Install Hugo
+      - name: Install Hugo Extended
+        shell: bash
         run: |
+          set -euo pipefail
+
           mkdir -p "${RUNNER_TEMP}/hugo"
+
           curl --fail --location --retry 3 \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz" \
-            -o "${RUNNER_TEMP}/hugo.tar.gz"
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" \
+            --output "${RUNNER_TEMP}/hugo.tar.gz"
+
           tar -xzf "${RUNNER_TEMP}/hugo.tar.gz" \
             -C "${RUNNER_TEMP}/hugo"
+
           echo "${RUNNER_TEMP}/hugo" >> "${GITHUB_PATH}"
 
-      - name: Build website
+      - name: Verify Hugo and source files
+        shell: bash
         run: |
-          hugo build --gc --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+          set -euo pipefail
+
+          hugo version
+
+          test -f themes/liftoff/theme.toml
+          test -f themes/liftoff/layouts/home.html
+          test -f content/_index.md
+          test -f content/privacy-policy.md
+
+          if [ -f content/index.md ]; then
+            echo "::error::Rename content/index.md to content/_index.md."
+            exit 1
+          fi
+
+      - name: Build website
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          hugo build \
+            --gc \
+            --minify \
+            --cleanDestinationDir \
+            --baseURL "https://e2s.app/"
+
+      - name: Verify generated HTML
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s public/index.html
+          test -s public/privacy-policy/index.html
+
+          grep -qi '<html' public/index.html
+          grep -qi '<html' public/privacy-policy/index.html
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v5
