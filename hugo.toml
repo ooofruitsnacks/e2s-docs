@@ -43,6 +43,11 @@ enableRobotsTXT = true
     pageRef = "/features"
     weight = 20
 
+  [[menus.main]]
+    name = "Getting Started"
+    pageRef = "/getting-started"
+    weigt = 20
+
 [markup]
   [markup.highlight]
     style = "github-dark"
