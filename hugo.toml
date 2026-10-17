@@ -1,5 +1,4 @@
-baseURL = "https://e2s.app/"
-languageCode = "en-us"
-title = "E2S Assistant for the Blind, Low Vision, and Disabled"
-theme = "Liftoff"
-copyright = "ACS | a creative solution | Owen Edwards 
+# hugo.toml
+[module]
+  [[module.imports]]
+    path = "codeberg.org/head1328/hugo-liftoff"
