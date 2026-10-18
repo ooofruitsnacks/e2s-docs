@@ -20,7 +20,7 @@ draft: false
 
 {{< /hero >}}
 
-{{< section >}}
+{{< section width="narrow" >}}
 
 ## Jump to a feature
 
