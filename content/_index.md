@@ -48,6 +48,8 @@ There's a lot of features packed into E2S. Read about them all down below and E2
 
 [E2S Features and Capabilites](/features/)
 
+{{< /section >}}
+
 {{< hero title="Are you setting up E2S for someone else?" subtitle="Getting started with E2S Assistant is very easy and straight forward. Get started with the app and a full guide of how to set things up for someone else including settings, haptics, the action button and shortcuts." >}}
 
 {{< buttons >}}
@@ -56,4 +58,3 @@ There's a lot of features packed into E2S. Read about them all down below and E2
 
   {{< /hero >}}
 
-{{< /section >}}
