@@ -1,10 +1,8 @@
 ---
-title: "Features"
 description: "E2S - Features and Capabilities"
+date: 2026-10-18
 draft: false
 ---
-
-**Effective date:** OCTOBER 16TH 2026
 
 {{< hero title="Do more with" titleAccent="E2S Assistant." subtitle="A personal assistant for blind, low-vision and disabled people. Use your voice or touch, whichever you prefer. **Free. Open source. Forever.**" >}}
 

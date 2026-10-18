@@ -1,12 +1,18 @@
 ---
-title: "Privacy Policy"
 description: "IOS Privacy Policy"
+date: 2026-10-18
 draft: false
 ---
 
-**Effective date:** OCTOBER 16TH 2026
+{{< hero title="Privacy" titleAccent="Policy" subtitle="How to use E2S safely and respectfully. These rules work together with the [Terms of Service](/terms-of-service/) and [Terms of Use](/terms-of-use/). **Effective date: October 18, 2026.**" >}}
 
-# Privacy Policy
+{{< pills >}}
+  {{< pill icon="mdi:shield-check-outline" >}}Your data in your control{{< /pill >}}
+  {{< pill icon="mdi:account-heart-outline" >}}No tracking or data collection{{< /pill >}}
+  {{< pill icon="mdi:hand-okay" >}}Open-source forever!{{< /pill >}}
+{{< /pills >}}
+
+{{< /hero >}}
 
 __E2S Assistant__ is a free open-source project developed and maintained by __Owen Edwards__. All information entered into __E2S Assistant__ is never shared with the developer, Apple, or outside entities. Your information and data is stored locally on your device, with the option to store information in your I-cloud account. There are no hidden trackers and no data is collected or sold. 
   

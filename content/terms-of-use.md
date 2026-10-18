@@ -1,10 +1,8 @@
 ---
-title: "Terms of Use"
 description: "E2S IOS Terms of Use Agreement"
+date: 2026-10-18
 draft: false
 ---
-
-**Effective date:** OCTOBER 16TH 2026
 
 {{< hero title="Terms of" titleAccent="Use" subtitle="How to use E2S safely and respectfully. These rules work together with the [Terms of Service](/terms-of-service/)." >}}
 

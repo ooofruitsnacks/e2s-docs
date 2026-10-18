@@ -55,3 +55,5 @@ enableRobotsTXT = true
     lineNos = false
     codeFences = true
     tabWidth = 3
+  [markup.goldmark.renderer]
+    unsafe = true
