@@ -24,32 +24,36 @@ draft: false
 
 # Welcome to the E2S Wiki & Documentation!
 
-Testing
+Please explore all the sections to find the information you are looking for. This entire website and all the documents were created by me personally in human jargon that's easy to understand. You don't have to hire a team or lawyers to read everything or worry about it all being AI slop non-sense. If you have any issues or concerns please reach out to me directly via email (467487@pm.me).  
 
 ## Documentation
+
+Read all about the mechanics and get an under the hood look at how E2S works. If you want to replicate or improve a personal version feel free! That's the beauty of open source! You can find all the documentation needed to do so here. 
 
 Go to [E2S Assistant Documentation](/documentation/)
 
 ## Privacy Policy
 
+This is where the current and updated versions of the privacy policy is located for you to read, examine, and make your own decision. This section will always be availale.
+
 Read the [E2S Assistant Privacy Policy](/privacy-policy/).
 
 ## Terms of Service
 
-testing
+Read the terms of E2S's services.
 
-Read the [E2S T.O.S Agreement](/terms-of-service/)
+[E2S T.O.S Agreement](/terms-of-service/)
 
 ## Terms of Use
 
-testing
+Read about the terms of using E2S's services.
 
-Read the [E2S T.O.U Agreement](/terms-of-use/)
+[E2S T.O.U Agreement](/terms-of-use/)
 
 ## Features
 
-testing
+There's a lot of features packed into E2S. Read about them all down below and E2S's potential!
 
-Read the [E2S Features and Capabilites](/features/)
+[E2S Features and Capabilites](/features/)
 
 {{< /section >}}
