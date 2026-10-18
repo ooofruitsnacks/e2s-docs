@@ -46,7 +46,7 @@ enableRobotsTXT = true
   [[menus.main]]
     name = "Getting Started"
     pageRef = "/getting-started"
-    weigt = 20
+    weight = 20
 
 [markup]
   [markup.highlight]
