@@ -62,7 +62,7 @@ You, the "User", agree to all terms and conditions listed on https://e2s.app and
 {{< tab name="Online Services" icon="wifi-arrow-left-right" >}}
 - Brave Search API is a paid service, __E2S Assistant__ is not responible for using the free tokens provided by Brave Search and any charges to the user. Users can use the free Brave Search API Key provided by __E2S Assitant__ and Me :) because I think everyone deserves it. I don't track what you search.
 - BARD and NLS are not associated with __E2S Assistant__. The feature within __E2S Assistant__ is for easier searching, saving and playing of the user's BARD account. __E2S Assistant__ does not provide these services and is not responible for the billing of their services.
-{{< /tab}}
+{{< /tab >}}
 
 {{< /tabs >}}
 
