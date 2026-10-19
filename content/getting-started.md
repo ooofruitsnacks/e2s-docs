@@ -10,6 +10,34 @@ layout: "landing"
   @media (prefers-reduced-motion: no-preference) {
     html { scroll-behavior: smooth; }
   }
+.card.card--linked {
+  position: relative;
+  isolation: isolate;
+}
+
+.card.card--linked > a.card__link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+.card.card--linked > a.card__link:focus-visible {
+  outline: 3px solid var(--color-accent, #22d3ee);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.card--linked {
+    transition: none;
+  }
+
+  .card.card--linked:hover {
+    transform: none;
+  }
+}
 </style>
 
 {{< hero title="Setting up E2S for" titleAccent="someone you care about." subtitle="Thank you for helping! This guide walks you through setting up E2S Assistant from start to finish: permissions, voice, vibrations, navigation, food, calls, the Action Button and more. Plan on about **30–45 minutes**, and do it **together** with the person who'll use E2S if you can." >}}
@@ -115,7 +143,7 @@ Go to **Settings → App access → Start permission tutorial**. E2S explains ea
 
 You can review or change these anytime in **Settings → App access**, or with the **Change access in iPhone Settings** button.
 
-## Step 4: Set up how E2S talks and listens {#step-4}
+<h2 id="step-4">Step 4: Set up how E2S talks and listens</h2>
 
 Go to **Settings → Touch, Voice, & Haptics**.
 
@@ -157,7 +185,7 @@ E2S vibrates when it's ready to listen. Teach the user to **wait for that vibrat
 {{< /step >}}
 {{< /steps >}}
 
-## Step 6: Set up navigation {#step-6}
+<h2 id="step-6">Step 6: Set up navigation</h2>
 
 Go to **Settings → Navigation and Guidance**.
 
@@ -207,7 +235,7 @@ Set up audiobooks in **Settings → Online Services → Talking Books**.
 
 {{< /tabs >}}
 
-## Step 9: Hands-free calls and messages {#step-9}
+<h2 id="step-9">Step 9: Hands-free calls and messages</h2>
 
 By default, E2S reads a call or message back and asks *"Should I…? Say yes or no,"* then opens the Phone, FaceTime or Mail screen to finish. To make it fully hands-free, turn on **Settings → Touch, Voice, & Haptics → Voice control → Send messages and place calls without a button**, then create these **5 shortcuts** in Apple's Shortcuts app. The names must match **exactly**:
 
@@ -266,7 +294,7 @@ Long-press the Home Screen, tap **Edit → Add Widget**, and add E2S. It shows t
 
 {{< /tabs >}}
 
-## Step 11: Privacy and Settings lock {#step-11}
+<h2 id="step-11">Step 11: Privacy and Settings lock</h2>
 
 Go to **Settings → Security, Privacy, & Camera**.
 
