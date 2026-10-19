@@ -4,7 +4,7 @@ date: 2026-10-18
 draft: false
 ---
 
-{{< hero title="Privacy" titleAccent="Policy" subtitle="How to use E2S safely and respectfully. These rules work together with the [Terms of Service](/terms-of-service/) and [Terms of Use](/terms-of-use/). **Effective date: October 18, 2026.**" >}}
+{{< hero title="Privacy" titleAccent="Policy" subtitle="Read about how E2S Assistant handles and protects your data. These rules work together with the [Terms of Service](/terms-of-service/) and [Terms of Use](/terms-of-use/). **Effective Date: October 18, 2026**" >}}
 
 {{< pills >}}
   {{< pill icon="mdi:shield-check-outline" >}}Your data in your control{{< /pill >}}
@@ -52,6 +52,4 @@ E2S is a personal passion project of mine and I think it is important to not onl
 
 E2S follows all export compliance laws, the standard encryption algorithm used by __E2S Assistant__ is approved and recognized by IEEE, IETF, ISO, ITU, ETSI, 3GPP, TIA, and GSMA. These encryption practices are used to harden security defenses from outside threats accessing your data.
 
-# Allowing App Access
-
-All app access can be found and configured in app. Go to __Settings > "Start Permission Tutorial" > or scroll down and press "Change Access In iPhone Settings"__. 
+**Allowing App Access**: All app access can be found and configured in app. Go to __Settings > "Start Permission Tutorial" > or scroll down and press "Change Access In iPhone Settings"__. 
