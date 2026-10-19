@@ -2,6 +2,7 @@
 description: "E2S IOS Terms of Service Agreement"
 date: 2026-10-18
 draft: false
+layout: "landing"
 ---
 
 {{< hero title="Terms of" titleAccent="Service" subtitle="The conditions, agreements, and terms of __E2S Assistant__ services. No BS. Just plain English.**Effective Date: October 18, 2026**" >}}

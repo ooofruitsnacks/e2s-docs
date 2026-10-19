@@ -1,0 +1,25 @@
+{{- /*
+Feature card. Same as the theme's version, except links that start
+with "#" stay on the current page instead of pointing at the site root.
+*/ -}}
+{{- $title := .Get "title" -}}
+{{- $url := .Get "url" -}}
+{{- $icon := .Get "icon" -}}
+{{- $href := "" -}}
+{{- with $url -}}
+  {{- if hasPrefix . "#" -}}
+    {{- $href = . -}}
+  {{- else -}}
+    {{- $href = . | relLangURL -}}
+  {{- end -}}
+{{- end -}}
+<div class="card{{ if $url }} card--linked{{ end }}">
+  {{- with $href }}
+    <a class="card__link" href="{{ . }}" aria-label="{{ $title }}"></a>
+  {{- end }}
+  {{- with $icon }}
+    <div class="card__icon" aria-hidden="true">{{ partial "icon.html" . }}</div>
+  {{- end }}
+  <h3 class="card__title">{{ $title }}</h3>
+  <div class="card__body">{{ .Inner | markdownify }}</div>
+</div>

@@ -2,6 +2,7 @@
 description: "IOS Privacy Policy"
 date: 2026-10-18
 draft: false
+layout: "landing:
 ---
 
 {{< hero title="Privacy" titleAccent="Policy" subtitle="Read about how E2S Assistant handles and protects your data. These rules work together with the [Terms of Service](/terms-of-service/) and [Terms of Use](/terms-of-use/). **Effective Date: October 18, 2026**" >}}

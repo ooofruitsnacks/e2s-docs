@@ -2,7 +2,14 @@
 description: "E2S - Features and Capabilities"
 date: 2026-10-18
 draft: false
+layout: "landing"
 ---
+<style>
+  h2[id], h3[id] { scroll-margin-top: 6.5rem; }
+  @media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
+  }
+</style>
 
 {{< hero title="Do more with" titleAccent="E2S Assistant." subtitle="A personal assistant for blind, low-vision and disabled people. Use your voice or touch, whichever you prefer. **Free. Open source. Forever.**" >}}
 
@@ -25,7 +32,7 @@ draft: false
 ## Jump to a feature
 
 {{< feature-grid >}}
-  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="https://e2s.app/features/#getting-around" >}}
+  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="#getting-around" >}}
   Walking directions, transit, nearby places, and Path Alerts.
   {{< /feature-card >}}
   {{< feature-card title="Indoor guidance" icon="mdi:cube-scan" url="#indoor-guidance" >}}
@@ -66,7 +73,7 @@ draft: false
   {{< /tab >}}
 {{< /tabs >}}
 
-## Getting around
+## Getting around {#getting-around}
 
 - **Walking directions** with spoken turns and vibration cues
 - **Path Alerts** that warn about obstacles ahead, using the camera and LiDAR
@@ -78,7 +85,7 @@ draft: false
 > [!WARNING]
 > Directions and Path Alerts are helpers, not guarantees. Keep using your cane, guide dog, and training. Read the [Terms of Use](/terms-of-use/).
 
-## Indoor guidance
+## Indoor guidance {#indoor-guidance}
 
 - **Room scanning** with the iPhone's LiDAR sensor
 - **Saved maps library.** Name your scans, then just say *"Load indoor scan Kitchen."*
@@ -88,7 +95,7 @@ draft: false
 - **Scan recovery** saves your progress if the app closes partway through a scan
 - **Store Mapping** *(development preview)*: early tools for mapping stores
 
-## Seeing and reading
+## Seeing and reading {#seeing-and-reading}
 
 - **Text reader** for labels, mail and signs. When a line is hard to read, E2S says it's **unsure** instead of guessing.
 - **Closer look**: on iPhones with Apple Intelligence, E2S takes a second look at hard-to-read lines
@@ -98,7 +105,7 @@ draft: false
 - **Night vision** to help the camera in low light
 - **Sound alerts** for sirens, horns, backup beeps, and more
 
-## Food and shopping
+## Food and shopping {#food-and-shopping}
 
 - **Grocery lists**, managed by voice
 - **Barcode scanning** to check products, using Open Food Facts
@@ -106,7 +113,7 @@ draft: false
 - **Recipes**: search, save, edit, and cook **step by step**. Say *"next step," "where was I,"* or *"last step."*
 - **Step timers** for cooking, plus alarms with Live Activities
 
-## Everyday help
+## Everyday help {#everday-help}
 
 - **Getting dressed**: help with clothes and outfits
 - **Calls and messages**, read back to you before anything is sent
@@ -116,7 +123,7 @@ draft: false
 - **Siri and Shortcuts** support
 - **Memory**: E2S can remember things you tell it
 
-## Make it yours
+## Make it yours {#make-it-yours}
 
 - **Voice settings**: choose the voice, speed and style
 - **Custom vibration patterns** for different alerts
