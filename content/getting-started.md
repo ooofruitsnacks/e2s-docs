@@ -22,7 +22,7 @@ layout: "landing"
 {{< /pills >}}
 
 {{< buttons >}}
-  {{< button href="#step-1" variant="primary" size="lg" icon="mdi:rocket-launch-outline" >}}Start the guide{{< /button >}}
+  {{< button href="/getting-started/#step-1" variant="primary" size="lg" icon="mdi:rocket-launch-outline" >}}Start the guide{{< /button >}}
   {{< button href="/features/" variant="ghost" size="lg" icon="mdi:star-four-points-outline" >}}See all features{{< /button >}}
 {{< /buttons >}}
 
@@ -50,22 +50,22 @@ layout: "landing"
 ## Jump to a step {#jump}
 
 {{< feature-grid >}}
-  {{< feature-card title="Install & safety" icon="mdi:download-circle-outline" url="#step-1" >}}
+  {{< feature-card title="Install & safety" icon="mdi:download-circle-outline" url="/getting-started/#step-1" >}}
   Get E2S and go over the safety notice together.
   {{< /feature-card >}}
-  {{< feature-card title="Permissions" icon="mdi:shield-key-outline" url="#step-3" >}}
+  {{< feature-card title="Permissions" icon="mdi:shield-key-outline" url="/getting-started/#step-3" >}}
   The permission tutorial: what each one does.
   {{< /feature-card >}}
-  {{< feature-card title="Voice & vibrations" icon="mdi:account-voice" url="#step-4" >}}
+  {{< feature-card title="Voice & vibrations" icon="mdi:account-voice" url="/getting-started/#step-4" >}}
   How E2S talks, listens, and vibrates.
   {{< /feature-card >}}
-  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="#step-6" >}}
+  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="/getting-started/#step-6" >}}
   Directions, Path Alerts, and indoor maps.
   {{< /feature-card >}}
-  {{< feature-card title="Calls & shortcuts" icon="mdi:phone-outline" url="#step-9" >}}
+  {{< feature-card title="Calls & shortcuts" icon="mdi:phone-outline" url="/getting-started/#step-9" >}}
   Hands-free calls, messages, Siri, and the Action Button.
   {{< /feature-card >}}
-  {{< feature-card title="Privacy & lock" icon="mdi:lock-outline" url="#step-11" >}}
+  {{< feature-card title="Privacy & lock" icon="mdi:lock-outline" url="/getting-started/#step-11" >}}
   Lock Settings with Face ID, and privacy choices.
   {{< /feature-card >}}
 {{< /feature-grid >}}

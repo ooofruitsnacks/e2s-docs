@@ -32,22 +32,22 @@ layout: "landing"
 ## Jump to a feature
 
 {{< feature-grid >}}
-  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="#getting-around" >}}
+  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="/features/#getting-around" >}}
   Walking directions, transit, nearby places, and Path Alerts.
   {{< /feature-card >}}
-  {{< feature-card title="Indoor guidance" icon="mdi:cube-scan" url="#indoor-guidance" >}}
+  {{< feature-card title="Indoor guidance" icon="mdi:cube-scan" url="/features/#indoor-guidance" >}}
   Scan rooms with LiDAR, save them, and load them by name.
   {{< /feature-card >}}
-  {{< feature-card title="Seeing & reading" icon="mdi:eye-outline" url="#seeing-and-reading" >}}
+  {{< feature-card title="Seeing & reading" icon="mdi:eye-outline" url="/features/#seeing-and-reading" >}}
   Read text, find signs and objects, and hear what's around you.
   {{< /feature-card >}}
-  {{< feature-card title="Food & shopping" icon="mdi:cart-outline" url="#food-and-shopping" >}}
+  {{< feature-card title="Food & shopping" icon="mdi:cart-outline" url="/features/#food-and-shopping" >}}
   Grocery lists, barcode checks, allergens, recipes, and timers.
   {{< /feature-card >}}
-  {{< feature-card title="Everyday help" icon="mdi:tshirt-crew-outline" url="#everyday-help" >}}
+  {{< feature-card title="Everyday help" icon="mdi:tshirt-crew-outline" url="/features/#everyday-help" >}}
   Getting dressed, calls, messages, weather, books, and more.
   {{< /feature-card >}}
-  {{< feature-card title="Make it yours" icon="mdi:tune-variant" url="#make-it-yours" >}}
+  {{< feature-card title="Make it yours" icon="mdi:tune-variant" url="/features/#make-it-yours" >}}
   Voice, vibration patterns, privacy, and caretaker tools.
   {{< /feature-card >}}
 {{< /feature-grid >}}
@@ -113,7 +113,7 @@ layout: "landing"
 - **Recipes**: search, save, edit, and cook **step by step**. Say *"next step," "where was I,"* or *"last step."*
 - **Step timers** for cooking, plus alarms with Live Activities
 
-## Everyday help {#everday-help}
+## Everyday help {#everyday-help}
 
 - **Getting dressed**: help with clothes and outfits
 - **Calls and messages**, read back to you before anything is sent
