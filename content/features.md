@@ -9,6 +9,34 @@ layout: "landing"
   @media (prefers-reduced-motion: no-preference) {
     html { scroll-behavior: smooth; }
   }
+.card.card--linked {
+  position: relative;
+  isolation: isolate;
+}
+
+.card.card--linked > a.card__link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+.card.card--linked > a.card__link:focus-visible {
+  outline: 3px solid var(--color-accent, #22d3ee);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.card--linked {
+    transition: none;
+  }
+
+  .card.card--linked:hover {
+    transform: none;
+  }
+}
 </style>
 
 {{< hero title="Do more with" titleAccent="E2S Assistant." subtitle="A personal assistant for blind, low-vision and disabled people. Use your voice or touch, whichever you prefer. **Free. Open source. Forever.**" >}}
