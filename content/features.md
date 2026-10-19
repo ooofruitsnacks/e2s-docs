@@ -199,9 +199,8 @@ On your iPhone. Read the [Privacy Policy](/privacy-policy/) for details.
 
 </details>
 
-{{< /section >}}
-
 {{< cta title="Ready to do more?" primary="Get E2S|[APP STORE LINK]" secondary="Read the docs|/" >}}
 Free. Open source. Forever. Made with care by Owen.
 {{< /cta >}}
 
+{{< /section >}}

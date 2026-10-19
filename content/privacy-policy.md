@@ -15,6 +15,8 @@ layout: "landing"
 
 {{< /hero >}}
 
+{{< section width="narrow" >}}
+
 __E2S Assistant__ is a free open-source project developed and maintained by __Owen Edwards__. All information entered into __E2S Assistant__ is never shared with the developer, Apple, or outside entities. Your information and data is stored locally on your device, with the option to store information in your I-cloud account. There are no hidden trackers and no data is collected or sold. 
   
 ## Privacy Concerns
@@ -54,3 +56,5 @@ E2S is a personal passion project of mine and I think it is important to not onl
 E2S follows all export compliance laws, the standard encryption algorithm used by __E2S Assistant__ is approved and recognized by IEEE, IETF, ISO, ITU, ETSI, 3GPP, TIA, and GSMA. These encryption practices are used to harden security defenses from outside threats accessing your data.
 
 **Allowing App Access**: All app access can be found and configured in app. Go to __Settings > "Start Permission Tutorial" > or scroll down and press "Change Access In iPhone Settings"__. 
+
+{{< /section >}}

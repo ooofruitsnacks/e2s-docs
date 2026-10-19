@@ -134,9 +134,8 @@ You can stop using E2S at any time by deleting it. If someone uses E2S to break 
 
 These terms are governed by the laws of **USA**, apart from its conflict-of-law rules. If a dispute can't be settled by talking it through, it goes to the courts of your local state. If any part of these terms is found invalid, the rest still applies.
 
-{{< /section >}}
-
 {{< cta title="Questions about these terms?" primary="Get In Contact|mailto:467487@pm.me" >}}
 If you have any comments or concerns please reach out to me directly so I can help you.
 {{< /cta >}}
 
+{{< /section >}}

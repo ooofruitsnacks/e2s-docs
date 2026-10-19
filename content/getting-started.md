@@ -366,8 +366,8 @@ Email me at [467487@pm.me](mailto:467487@pm.me). Safety problems go straight to 
 
 </details>
 
-{{< /section >}}
-
 {{< cta title="You're all set. Thank you for helping!" primary="Explore all features|/features/" secondary="Read the Terms of Use|/terms-of-use/" >}}
 Questions about setup? Email [467487@pm.me](mailto:467487@pm.me). I read every message myself.
 {{< /cta >}}
+
+{{< /section >}}

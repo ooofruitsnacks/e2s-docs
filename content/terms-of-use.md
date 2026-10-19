@@ -113,9 +113,8 @@ Email me at [467487@pm.me](mailto:467487@pm.me). Any safety problems or concerns
 
 </details>
 
-{{< /section >}}
-
 {{< cta title="Stay safe! Want to contact me?" primary="Explore Privacy Policy|/privacy-policy/" secondary="Terms of Service|/terms-of-service/" >}}
 Feel free to reach out! Email: [467487@pm.me](mailto:467487@pm.me) Have a good day :)
 {{< /cta >}}
 
+{{< /section >}}
