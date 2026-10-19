@@ -25,7 +25,7 @@ draft: false
 ## Jump to a feature
 
 {{< feature-grid >}}
-  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="https://e2s.app/features/getting-around" >}}
+  {{< feature-card title="Getting around" icon="mdi:map-marker-path" url="https://e2s.app/features/#getting-around" >}}
   Walking directions, transit, nearby places, and Path Alerts.
   {{< /feature-card >}}
   {{< feature-card title="Indoor guidance" icon="mdi:cube-scan" url="#indoor-guidance" >}}
