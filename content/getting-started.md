@@ -74,7 +74,7 @@ layout: "landing"
 
 {{< section width="narrow" >}}
 
-## Step 1: Install E2S {#step-1}
+<h2 id="step-1">Step 1: Install E2S</h2>
 
 {{< steps >}}
 {{< step number="1" title="Download it" >}}
@@ -97,7 +97,7 @@ When E2S opens for the first time, it shows a safety notice. **The user should a
 >
 > The full rules are in the [Terms of Use](/terms-of-use/).
 
-## Step 3: Run the permission tutorial {#step-3}
+<h2 id="step-3">Step 3: Run thr Permission Tutorial</h2>
 
 Go to **Settings → App access → Start permission tutorial**. E2S explains each permission one at a time, out loud. **Every single one is optional.** If you skip one, the features that need it simply stay off.
 

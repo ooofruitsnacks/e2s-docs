@@ -73,7 +73,7 @@ layout: "landing"
   {{< /tab >}}
 {{< /tabs >}}
 
-## Getting around {#getting-around}
+<h2 id="getting-around">Getting Around</h2>
 
 - **Walking directions** with spoken turns and vibration cues
 - **Path Alerts** that warn about obstacles ahead, using the camera and LiDAR
@@ -85,7 +85,7 @@ layout: "landing"
 > [!WARNING]
 > Directions and Path Alerts are helpers, not guarantees. Keep using your cane, guide dog, and training. Read the [Terms of Use](/terms-of-use/).
 
-## Indoor guidance {#indoor-guidance}
+<h2 id="indoor-guidance">Indoor Guidance</h2>
 
 - **Room scanning** with the iPhone's LiDAR sensor
 - **Saved maps library.** Name your scans, then just say *"Load indoor scan Kitchen."*
@@ -95,7 +95,7 @@ layout: "landing"
 - **Scan recovery** saves your progress if the app closes partway through a scan
 - **Store Mapping** *(development preview)*: early tools for mapping stores
 
-## Seeing and reading {#seeing-and-reading}
+<h2 id="seeing-and-reading">Seeing and Reading</h2>
 
 - **Text reader** for labels, mail and signs. When a line is hard to read, E2S says it's **unsure** instead of guessing.
 - **Closer look**: on iPhones with Apple Intelligence, E2S takes a second look at hard-to-read lines
@@ -105,7 +105,7 @@ layout: "landing"
 - **Night vision** to help the camera in low light
 - **Sound alerts** for sirens, horns, backup beeps, and more
 
-## Food and shopping {#food-and-shopping}
+<h2 id="food-and-shopping">Food and Shopping</h2>
 
 - **Grocery lists**, managed by voice
 - **Barcode scanning** to check products, using Open Food Facts
@@ -113,7 +113,7 @@ layout: "landing"
 - **Recipes**: search, save, edit, and cook **step by step**. Say *"next step," "where was I,"* or *"last step."*
 - **Step timers** for cooking, plus alarms with Live Activities
 
-## Everyday help {#everyday-help}
+<h2 id="everyday-help">Everyday Help</h2>
 
 - **Getting dressed**: help with clothes and outfits
 - **Calls and messages**, read back to you before anything is sent
@@ -123,7 +123,7 @@ layout: "landing"
 - **Siri and Shortcuts** support
 - **Memory**: E2S can remember things you tell it
 
-## Make it yours {#make-it-yours}
+<h2 id="make-it-yours">Make It Yours</h2>
 
 - **Voice settings**: choose the voice, speed and style
 - **Custom vibration patterns** for different alerts
