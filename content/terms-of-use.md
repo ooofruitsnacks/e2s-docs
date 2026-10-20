@@ -5,7 +5,7 @@ draft: false
 layout: "landing"
 ---
 
-{{< hero title="Terms of" titleAccent="Use" subtitle="Read the terms and conditions of using __E2S Assistant__. These rules work together with the [Terms of Service](/terms-of-service/).**Effective Date: October 18, 2026**" >}}
+{{< hero title="Terms of" titleAccent="Use" subtitle="Read the terms and conditions of using __E2S Assistant__. These rules work together with the [Terms of Service](/terms-of-service/).**Effective Updated Date: October 20, 2026**" >}}
 
 {{< /hero >}}
 
@@ -73,7 +73,7 @@ You, the "User", agree to all terms and conditions listed on https://e2s.app and
 - **Don't read other people's private things** without their permission, like their mail, screens or documents.
 - **Store mapping and scans** can capture people and private spaces. Scan only places you're allowed to, and follow store rules.
 
-## Things you can't do with E2S Assistant
+## Things You Can't Do With E2S Assistant
 
 - Break the law, or help someone else break it
 - Stalk, harass, spy on or secretly record anyone
@@ -83,7 +83,7 @@ You, the "User", agree to all terms and conditions listed on https://e2s.app and
 
 **Users found guilty of breaching terms and conditions listed on https://e2s.app will be held responible for damages and repair to those affected by the breach including payment of service usage.
 
-## Your own keys and accounts
+## Your Own Keys and Accounts
 
 Some optional features ask for **your own** key or token, like Brave Search or Apify.
 
@@ -91,7 +91,7 @@ Some optional features ask for **your own** key or token, like Brave Search or A
 - Your keys are stored in your iPhone's secure Keychain, and **Erase all E2S data** removes them.
 - Never share your keys with anyone.
 
-## For caretakers
+## For Caretakers
 
 Caretakers are welcome to help set up __E2S Assistant__ for a user.
 
