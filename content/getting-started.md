@@ -40,7 +40,7 @@ layout: "landing"
 }
 </style>
 
-{{< hero title="Setting up E2S Assistant for " titleAccent=" someone you care about." subtitle="Welcome and thank you for helping! This guide walks you through setting up E2S Assistant from start to finish: permissions, voice, haptic feedback, navigation, nutrition, shortcuts, the Action Button and more. Plan on about **30–45 minutes**, and do it **together** with the person who'll use E2S if you can. Youtube videos will be available as visual guides as well." **Effective Updated Date: October 20, 2026** >}}
+{{< hero title="Setting up E2S Assistant for " titleAccent=" someone you care about." subtitle="Welcome and thank you for helping! This guide walks you through setting up E2S Assistant from start to finish: permissions, voice, haptic feedback, navigation, nutrition, shortcuts, the Action Button and more. Plan on about **30–45 minutes**, and do it **together** with the person who'll use E2S if you can. Youtube videos will be available as visual guides as well. **Effective Updated Date: October 20, 2026**" >}}
 
 {{< pills >}}
   {{< pill icon="mdi:clock-outline" >}}30–45 minutes{{< /pill >}}
