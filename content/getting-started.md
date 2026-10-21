@@ -236,7 +236,7 @@ Go to **Settings → Food and Nutrition → Food and nutrition settings** and ad
 {{< /tab >}}
 
 {{< tab name="Web search" icon="mdi:magnify" >}}
-Web answers need a **Brave Search** key. You can use my personal API token, ```BSASwcEu8-wSGkwpJEW_WvoTLC2fjv3``` Add it in **Settings → Online Services → Online service settings**. It's stored in the iPhone's secure Keychain. I do not track your searches. I pay for this service with my own money because I don't believe in charging you for web searches. 
+Web answers need a **Brave Search** key. You can create a free account with Brave or you can use my personal API token, ```BSASwcEu8-wSGkwpJEW_WvoTLC2fjv3``` Add it in **Settings → Online Services → Online service settings**. It's stored in the iPhone's secure Keychain. I do not track your searches. I pay for this service with my own money because I don't believe in charging you for web searches.
 {{< /tab >}}
 
 {{< tab name="Talking Books" icon="mdi:book-open-variant" >}}
