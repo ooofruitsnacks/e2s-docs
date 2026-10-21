@@ -84,7 +84,7 @@ layout: "landing"
 
 {{< section width="narrow" >}}
 
-## Four tabs, one assistant
+## Monitoring Modes For Any Situation
 
 {{< tabs >}}
   {{< tab name="Monitor" icon="mdi:waveform" >}}
@@ -93,13 +93,17 @@ layout: "landing"
   {{< tab name="Chat" icon="mdi:chat-outline" >}}
   Talk with E2S. Your conversation, directions and Path Alerts appear here, along with evidence and receipts for the tasks E2S has done.
   {{< /tab >}}
-  {{< tab name="Tinker" icon="mdi:hammer-wrench" >}}
-  Type or say a request, get directions, run timers, and confirm, pause or cancel tasks.
+  {{< tab name="Public Spaces" icon="mdi:account-multiple-plus-outline" >}}
+  Going out? Turn on this mode for optimal warnings about groups of people, fences, stairs, or any other obstacles typically found in public spaces.
   {{< /tab >}}
-  {{< tab name="Settings" icon="mdi:cog-outline" >}}
-  Voice, vibration, food and allergy profile, saved maps, privacy, and the permission tutorial.
+  {{< tab name="Store/Shopping" icon="mdi:cart" >}}
+  Tailored towards grocery stores, malls, or other large shopping areas to warn the user of shopping carts, aisles, stacked items, etc. This mode helps the user navigate around a store.
   {{< /tab >}}
 {{< /tabs >}}
+
+<h2 id=environmental-monitoring"<Environmental Monitoring</h2>
+
+__E2S Assistant__ is designed to provide the user with accurate environment descriptions and guidance. __E2S Assistant__ warns the user of obstacles or objects in their path, people or animals, or hazards that could pose danger to the user. E2S utilizes LiDAR to also help with elevation changes or stairs. E2S will monitor background noises for things like sirens, EV cars, or truck reverse noises.
 
 <h2 id="getting-around">Getting Around</h2>
 
@@ -113,10 +117,18 @@ layout: "landing"
 > [!WARNING]
 > Directions and Path Alerts are helpers, not guarantees. Keep using your cane, guide dog, and training. Read the [Terms of Use](/terms-of-use/).
 
+<h2 id="outdoor-navigation">Outdoor Navigation</h2>
+
+- **Path Alerts** configure your settings for different warning distances
+- **Route Settings** choose between walking, cycling, driving or public transit routes
+- **Map Settings** choose between Apple Maps, outdoors with trails, countour lines, hiking, cycling, subway and rail maps
+- **Route Guidance Customizaiton** the user has full control over route line color and thickness, spoken directions, haptic cues and more
+- **Maps and Widgets** E2S has an in app floating tile with support for widgets and live activities notifications so you never miss a direction
+
 <h2 id="indoor-guidance">Indoor Guidance</h2>
 
-- **Room scanning** with the iPhone's LiDAR sensor
-- **Saved maps library.** Name your scans, then just say *"Load indoor scan Kitchen."*
+- **Indoor Scanning** with the iPhone's LiDAR sensor
+- **Saved Maps Library** Name your scans then just say *"Load indoor scan Kitchen."*
 - **Find Me** works out where you are in a saved room
 - **Room guide** walks you to places inside a mapped room
 - **Floating map tile** that appears when you load a saved scan
@@ -133,13 +145,13 @@ layout: "landing"
 - **Night vision** to help the camera in low light
 - **Sound alerts** for sirens, horns, backup beeps, and more
 
-<h2 id="food-and-shopping">Food and Shopping</h2>
+<h2 id="food-and-shopping">Food and Nutrition</h2>
 
-- **Grocery lists**, managed by voice
-- **Barcode scanning** to check products, using Open Food Facts
-- **Allergy and diet profile**, so E2S warns you about ingredients you avoid
+- **Grocery lists** managed by voice controls
+- **Barcode scanning** check products ingredients using Open Food Facts and receive food ratings
+- **Allergy and diet profile** E2S warns you about ingredients or other diet restrictions for recipes or scanned barcodes
 - **Recipes**: search, save, edit, and cook **step by step**. Say *"next step," "where was I,"* or *"last step."*
-- **Step timers** for cooking, plus alarms with Live Activities
+- **Step timers** for cooking with alarms including Live Activities
 
 <h2 id="everyday-help">Everyday Help</h2>
 
@@ -159,52 +171,6 @@ layout: "landing"
 - **Battery-aware** features that ease off when the battery is low
 - **Lock Settings with Face ID**, which caretakers find handy
 - **Erase all E2S data** with one button
-
-## Getting started
-
-{{< steps >}}
-{{< step number="1" title="Install E2S" >}}
-Download E2S free from the App Store.
-{{< /step >}}
-{{< step number="2" title="Read the safety notice" >}}
-E2S explains what it can and can't do. Accept it to continue.
-{{< /step >}}
-{{< step number="3" title="Run the permission tutorial" >}}
-In **Settings → App access**, tap **Start permission tutorial**. Every permission is optional, and features that need a missing permission simply stay off.
-{{< /step >}}
-{{< step number="4" title="Start talking" >}}
-Open **Chat** and tap **Start voice conversation**. Wait for the listening vibration, then ask for anything.
-{{< /step >}}
-{{< /steps >}}
-
-## Things to try saying
-
-{{< tabs >}}
-  {{< tab name="Navigation" icon="mdi:walk" >}}
-  - "Take me to the nearest pharmacy."
-  - "Repeat that."
-  - "Load indoor scan Kitchen."
-  {{< /tab >}}
-  {{< tab name="Cooking" icon="mdi:chef-hat" >}}
-  - "How do I make scrambled eggs?"
-  - "Next step." / "Where was I?" / "Last step."
-  - "Set a timer for 5 minutes."
-  {{< /tab >}}
-  {{< tab name="Anytime" icon="mdi:star-outline" >}}
-  - "What's the weather?"
-  - "Read this."
-  - "Stop speaking."
-  {{< /tab >}}
-{{< /tabs >}}
-
-## What you need
-
-| Feature | Requirement |
-|---|---|
-| Most features | An iPhone with the latest iOS |
-| Room scanning, indoor guidance, Path Alerts with depth | An iPhone with LiDAR (Pro models) |
-| Closer look at hard-to-read text | An iPhone with Apple Intelligence |
-| Web search | Your own Brave Search key |
 
 <details>
   <summary><strong>Does E2S cost anything?</strong></summary>

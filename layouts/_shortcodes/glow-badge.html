@@ -1,0 +1,36 @@
+{{- /*
+  glow-badge: glowing pill badge, optionally linked and animated.
+    label     Text in the badge (required)
+    sub       Optional small second line (e.g. a domain)
+    icon      Iconify id, e.g. "mdi:web"
+    href      Optional link. http(s) links open in a new tab.
+    tone      cyan (default) | violet | pink | green
+    animated  "true" = rotating gradient ring + halo + float
+*/ -}}
+{{- $label := .Get "label" -}}
+{{- $sub := .Get "sub" -}}
+{{- $icon := .Get "icon" -}}
+{{- $href := .Get "href" | default "" -}}
+{{- $tone := .Get "tone" | default "cyan" -}}
+{{- $animated := eq (printf "%v" (.Get "animated")) "true" -}}
+{{- $external := or (hasPrefix $href "http://") (hasPrefix $href "https://") -}}
+{{- $url := $href -}}
+{{- if and $href (not $external) (not (hasPrefix $href "#")) (not (hasPrefix $href "mailto:")) -}}
+  {{- $url = $href | relLangURL -}}
+{{- end -}}
+{{- $class := printf "glow-badge glow-badge--%s" $tone -}}
+{{- if $animated }}{{ $class = printf "%s glow-badge--animated" $class }}{{ end -}}
+{{- if $href }}{{ $class = printf "%s glow-badge--link" $class }}{{ end -}}
+{{- if $href -}}
+<a class="{{ $class }}" href="{{ $url }}"{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+{{- else -}}
+<span class="{{ $class }}">
+{{- end -}}
+<span class="glow-badge__inner">
+{{- with $icon }}<span class="glow-badge__icon" aria-hidden="true">{{ partial "icon.html" . }}</span>{{ end -}}
+<span class="glow-badge__text"><span class="glow-badge__label">{{ $label }}</span>
+{{- with $sub }}<span class="glow-badge__sub">{{ . }}</span>{{ end -}}
+</span>
+{{- if $external }}<span class="glow-badge__arrow" aria-hidden="true">{{ partial "icon.html" "mdi:arrow-top-right" }}</span><span class="glow-sr-only"> (opens in a new tab)</span>{{ end -}}
+</span>
+{{- if $href }}</a>{{ else }}</span>{{ end -}}
